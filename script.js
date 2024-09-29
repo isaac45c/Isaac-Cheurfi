@@ -18,3 +18,18 @@ document.addEventListener('DOMContentLoaded', (event) => {
         loadYouTubeVideos();
     }
 });
+
+// Recherche dynamique
+        document.getElementById('searchBar').addEventListener('input', function () {
+            let query = this.value.toLowerCase();
+            let programmes = document.querySelectorAll('.programme');
+            
+            programmes.forEach(function (programme) {
+                let title = programme.querySelector('h3').textContent.toLowerCase();
+                if (title.includes(query)) {
+                    programme.style.display = 'inline-block';
+                } else {
+                    programme.style.display = 'none';
+                }
+            });
+        });

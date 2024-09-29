@@ -3,75 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Isaac Cheurfi - Portfolio Amélioré</title>
+    <title>Isaac Cheurfi - Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Navigation Sticky -->
+    <!-- Navigation -->
     <header>
         <nav>
             <ul>
-                <li><a href="#">Accueil</a></li>
-                <li><a href="#">Linktree</a></li>
-                <li><a href="#">Posts</a></li>
-                <li><a href="#">Live</a></li>
-                <li><a href="#">Jeux</a></li>
-                <li><a href="#">Programmes</a></li>
-                <li><a href="#">Sites</a></li>
-                <li><a href="#">Photos</a></li>
+                <li><a href="https://isaac45c.github.io/Isaac-Cheurfi/">Accueil</a></li>
+                <li><a href="pages/linktree.html">Linktree</a></li>
+                <li><a href="pages/posts.html">Posts</a></li>
+                <li><a href="pages/live.html">Live</a></li>
+                <li><a href="pages/jeux.html">Jeux</a></li>
+                <li><a href="pages/programmes.html">Programmes</a></li>
+                <li><a href="pages/sites.html">Sites</a></li>
+                <li><a href="pages/photos.html">Photos</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Hero Section with Animated Background -->
+    <!-- Hero Section -->
     <section id="hero">
-        <h1>Bienvenue sur le Portfolio d'Isaac Cheurfi</h1>
-        <p>Explorez mes créations et suivez mes derniers projets en direct.</p>
-        <a href="#content" class="button">Découvrir</a>
+        <h1>Bienvenue sur le site d'Isaac Cheurfi</h1>
+        <p>Découvrez mes créations et suivez mon travail en direct.</p>
     </section>
 
-    <!-- Search Section with Filter -->
     <section id="search-section">
         <input type="text" id="searchBar" placeholder="Rechercher un programme...">
     </section>
 
-    <!-- Main Content with dynamic cards -->
+    <!-- Main Content -->
     <section id="content">
         <h2>Catégories</h2>
-        <div class="category-card" style="background-image: url('images/linktree.jpg');">
-            <h3><a href="#">Linktree</a></h3>
+        <div class="category">
+            <h3><a href="pages/linktree.html">Linktree</a></h3>
         </div>
-        <div class="category-card" style="background-image: url('images/posts.jpg');">
-            <h3><a href="#">Posts et Vidéos</a></h3>
+        <div class="category">
+            <h3><a href="pages/posts.html">Posts et Vidéos</a></h3>
         </div>
-        <div class="category-card" style="background-image: url('images/live.jpg');">
-            <h3><a href="#">Live Twitch</a></h3>
+        <div class="category">
+            <h3><a href="pages/live.html">Live Twitch</a></h3>
         </div>
-        <div class="category-card" style="background-image: url('images/games.jpg');">
-            <h3><a href="#">Jeux</a></h3>
+        <div class="category">
+            <h3><a href="pages/jeux.html">Jeux</a></h3>
+        </div>
+        <div class="category">
+            <h3><a href="pages/programmes.html">Programmes</a></h3>
+        </div>
+        <div class="category">
+            <h3><a href="pages/sites.html">Mes Sites</a></h3>
+        </div>
+        <div class="category">
+            <h3><a href="pages/photos.html">Catalogue Photos</a></h3>
         </div>
     </section>
 
-    <!-- Recent Projects Carousel -->
     <section id="programmes-recents">
-        <h2>Derniers projets publiés</h2>
-        <div id="carousel">
-            <div class="carousel-item">
-                <h3>Projet Python: Analyse de données</h3>
-                <p>Un outil d'analyse de données écrit en Python.</p>
-                <a href="#" class="button">Détails</a>
-            </div>
-            <div class="carousel-item">
-                <h3>Projet Unity: Jeu de plateforme</h3>
-                <p>Créez et jouez à un jeu 2D sous Unity.</p>
-                <a href="#" class="button">Détails</a>
-            </div>
-            <div class="carousel-item">
-                <h3>Projet HTML: Portfolio</h3>
-                <p>Un portfolio simple à base de HTML et CSS.</p>
-                <a href="#" class="button">Détails</a>
-            </div>
+        <h2>Derniers programmes publiés</h2>
+        <div class="programme">
+            <h3>Projet Python: Analyse de données</h3>
+            <p>Un outil d'analyse de données écrit en Python.</p>
+            <a href="details.html" class="button">Détails</a>
+        </div>
+        <div class="programme">
+            <h3>Projet Unity: Jeu de plateforme</h3>
+            <p>Créez et jouez à un jeu 2D sous Unity.</p>
+            <a href="details.html" class="button">Détails</a>
+        </div>
+        <div class="programme">
+            <h3>Projet HTML: Portfolio</h3>
+            <p>Un portfolio simple à base de HTML et CSS.</p>
+            <a href="details.html" class="button">Détails</a>
         </div>
     </section>
 

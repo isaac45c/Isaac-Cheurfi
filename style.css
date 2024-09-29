@@ -102,7 +102,38 @@ footer {
 .link {
     margin: 20px 0;
 }
-
+#searchBar {
+            width: 50%;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        #programmes-recents {
+            padding: 40px;
+            background-color: #fff;
+            text-align: center;
+        }
+        #programmes-recents h2 {
+            margin-bottom: 20px;
+            font-size: 36px;
+        }
+        .programme {
+            display: inline-block;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 10px;
+            width: 30%;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .programme h3 {
+            margin-bottom: 10px;
+        }
+        .programme p {
+            margin-bottom: 10px;
+        }
 @media (max-width: 768px) {
     .category {
         width: 100%;
